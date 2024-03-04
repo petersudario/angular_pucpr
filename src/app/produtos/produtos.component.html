@@ -1,0 +1,9 @@
+<div>
+  <label for="nome">Name:</label>
+  <input class="form-control" type="text" id="nome" name="nome"  [formControl]="nome"/>
+</div>
+<div>
+  <label for="preco">Price:</label>
+  <input type="text" id="preco" name="preco" [formControl]="preco"/>
+</div>
+<button (click)="salvar()">Register</button>
